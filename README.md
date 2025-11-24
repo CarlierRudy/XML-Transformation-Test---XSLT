@@ -34,7 +34,8 @@ Assurez-vous d'avoir tous les fichiers dans le même dossier :
 ```bash
 python server.py
 ```
-##Resultat attendu:
+## Resultat attendu:
+```
 ============================================================
 🚀 Serveur XML/XSLT démarré!
 📂 Dossier: /chemin/vers/votre/dossier
@@ -46,4 +47,5 @@ python server.py
 ============================================================
 🛑 Pour arrêter le serveur: Ctrl+C
 
-En suite ouvrez : http://localhost:8000/ecole.xml
+```
+## En suite ouvrez : http://localhost:8000/ecole.xml
