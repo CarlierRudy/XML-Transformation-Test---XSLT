@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <?xml-stylesheet type="text/xsl" href="gestion-scolaire.xsl"?>
+<ecole nom="Lycée Victor Hugo">
+    <eleves>
+        <eleve id="E001">
+            <informations>
+                <nom>Martin</nom>
+                <prenom>Luc</prenom>
+                <date_naissance>2005-03-15</date_naissance>
+                <classe>Terminale S</classe>
+            </informations>
+            <notes>
+                <matiere nom="Mathématiques" coefficient="7">
+                    <note>16</note>
+                    <note>14</note>
+                    <note>18</note>
+                </matiere>
+                <matiere nom="Physique" coefficient="6">
+                    <note>12</note>
+                    <note>15</note>
+                </matiere>
+                <matiere nom="Français" coefficient="5">
+                    <note>13</note>
+                    <note>17</note>
+                    <note>14</note>
+                </matiere>
+            </notes>
+        </eleve>
+        
+        <eleve id="E002">
+            <informations>
+                <nom>Bernard</nom>
+                <prenom>Sophie</prenom>
+                <date_naissance>2005-07-22</date_naissance>
+                <classe>Terminale S</classe>
+            </informations>
+            <notes>
+                <matiere nom="Mathématiques" coefficient="7">
+                    <note>13</note>
+                    <note>17</note>
+                    <note>15</note>
+                </matiere>
+                <matiere nom="Physique" coefficient="6">
+                    <note>16</note>
+                    <note>14</note>
+                </matiere>
+                <matiere nom="Français" coefficient="5">
+                    <note>18</note>
+                    <note>16</note>
+                </matiere>
+            </notes>
+        </eleve>
+        
+        <eleve id="E003">
+            <informations>
+                <nom>Dubois</nom>
+                <prenom>Thomas</prenom>
+                <date_naissance>2005-11-30</date_naissance>
+                <classe>Terminale ES</classe>
+            </informations>
+            <notes>
+                <matiere nom="Mathématiques" coefficient="5">
+                    <note>11</note>
+                    <note>09</note>
+                </matiere>
+                <matiere nom="Économie" coefficient="7">
+                    <note>15</note>
+                    <note>17</note>
+                    <note>16</note>
+                </matiere>
+                <matiere nom="Français" coefficient="5">
+                    <note>12</note>
+                    <note>14</note>
+                </matiere>
+            </notes>
+        </eleve>
+    </eleves>
+    
+    <professeurs>
+        <professeur id="P001">
+            <nom>Durand</nom>
+            <prenom>Pierre</prenom>
+            <matiere>Mathématiques</matiere>
+        </professeur>
+        <professeur id="P002">
+            <nom>Leroy</nom>
+            <prenom>Marie</prenom>
+            <matiere>Physique</matiere>
+        </professeur>
+        <professeur id="P003">
+            <nom>Moreau</nom>
+            <prenom>Jean</prenom>
+            <matiere>Français</matiere>
+        </professeur>
+        <professeur id="P004">
+            <nom>Simon</nom>
+            <prenom>Élise</prenom>
+            <matiere>Économie</matiere>
+        </professeur>
+    </professeurs>
+</ecole>
